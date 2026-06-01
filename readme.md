@@ -46,16 +46,14 @@ Total_Payment   | 146,715.00    | 11.89           | 3.88
 🚀 Pipeline Execution
 Setup and Dependencies
 Ensure you have the core analytics stack installed:
-
-Bash
 pip install pandas numpy seaborn matplotlib
+
 Run Pipeline
 Execute the processing sequence to clean, aggregate, log-transform, and export the structured dataset:
-
-Bash
 python payment_pipeline.py
+
+
 📂 Project Structure
-Plaintext
 ├── pay_demo.csv         # Raw payment history (omitted via .gitignore for confidentiality)
 ├── payment_pipeline.py  # Python script containing cleaning, aggregation, and log1p execution
 ├── sample.csv           # Final processed, variance-stabilized output file
