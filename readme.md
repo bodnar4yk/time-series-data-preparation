@@ -53,7 +53,7 @@ Execute the processing sequence to clean, aggregate, log-transform, and export t
 * python payment_pipeline.py
 
 
-###📂 Project Structure
+## 📂 Project Structure
 * pay_demo.csv         # Raw payment history (omitted via .gitignore for confidentiality)
 * payment_pipeline.py  # Python script containing cleaning, aggregation, and log1p execution
 * sample.csv           # Final processed, variance-stabilized output file
