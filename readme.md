@@ -41,6 +41,8 @@ Metric          | Raw Value Max | Log1P Value Max | Final Std Dev (Sigma)
 Pay_Type_1      | 146,265.00    | 11.89           | 3.69
 Pay_Type_2      |  45,025.00    | 10.71           | 3.23
 Total_Payment   | 146,715.00    | 11.89           | 3.88
+```
+
 🚀 Pipeline Execution
 Setup and Dependencies
 Ensure you have the core analytics stack installed:
